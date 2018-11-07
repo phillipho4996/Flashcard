@@ -9,7 +9,7 @@ Editing the flashcard app
 
 ### App Walk-though
 
-<img src="https://github.com/phillipho4996/Flashcard/blob/master/flash_card_app_2.gif" width=200><br>
+<img src="https://github.com/phillipho4996/Flashcard/blob/master/codelab2.gif" width=200><br>
 
 
 ## Required
