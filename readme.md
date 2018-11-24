@@ -40,7 +40,7 @@ Editing the flashcard app
 - [ ] User can add multiple choice answers in the creation screen
 
 
-## lab 1
+## Lab 1
 
 ### App Description
 Build a simple flashcard app.
