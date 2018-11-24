@@ -46,9 +46,26 @@
                                     <outletCollection property="gestureRecognizers" destination="HMa-Cj-8lJ" appends="YES" id="F3M-Ci-t7g"/>
                                 </connections>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mua-RJ-T8Z">
-                                <rect key="frame" x="220" y="497" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wzo-63-K3l">
+                                <rect key="frame" x="47" y="588" width="31" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="didTapOnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dV3-Cg-ZhU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNg-U6-9ao">
+                                <rect key="frame" x="296" y="588" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="didTapOnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V99-af-zi5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mua-RJ-T8Z">
+                                <rect key="frame" x="158" y="578" width="59" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="+"/>
                                 <connections>
                                     <segue destination="hXX-Aa-rcQ" kind="show" id="ZmD-bo-t5M"/>
@@ -62,6 +79,8 @@
                     <connections>
                         <outlet property="frontLabel" destination="80h-nc-zsY" id="xqH-7V-V58"/>
                         <outlet property="hiddenLabel" destination="Z3w-C3-rV4" id="CeU-Hp-mvY"/>
+                        <outlet property="nextButton" destination="JNg-U6-9ao" id="6Sd-Po-GIk"/>
+                        <outlet property="prevButton" destination="Wzo-63-K3l" id="Zz1-ek-Mfn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
